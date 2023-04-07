@@ -2,10 +2,8 @@
 body {
   background-color: black;
   margin-right:5%;
-  padding-right:5%;
   margin-left:5%;
-  padding-left:5%;
-  }
+   }
 /*decided to establish a cohesive text size from the start*/
 p {
   font-size: 25px;
