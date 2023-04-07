@@ -1,0 +1,75 @@
+/*Wanted to go with a black background for the whole page*/
+body {
+  background-color: black;
+  margin:5%;
+  padding:5%;
+  }
+/*decided to establish a cohesive text size from the start*/
+p {
+  font-size: 25px;
+  color: white
+}
+/*Kept the titular color throughout the page to highlight the contents*/
+h1 {
+  font-size: 2em;
+  color:#ba160c;
+  font-family: 'Abril Fatface';
+  text-align: center;
+  Height: 20px;
+  border:1px white;
+}
+h2 {
+  font-size: 2em;
+  color:#ba160c;
+  font-family: 'Abril Fatface';
+  text-align: center;
+  border:1px white;
+}
+h3 {  
+  font-size: 2em;
+  color:#ba160c;
+  font-family: 'Abril Fatface';
+  text-align: center;
+  border:1px black;
+  }
+/*css to give me that pretty round box i wanted*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.box {
+  font-family:'Abril Fatface';
+  background-color: #767B91;
+  color: #767B91;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+}
+ul {
+  color: white;
+  font-size: 20px
+}
+.round {
+  border-radius: 10px;
+}
+header{
+  background-color: #767B91
+}
+/*Made sure footer matched Header*/
+footer {
+    background-color: #767B91;
+    margin: 200px 0 0 0;
+    padding: 20px 0;
+}
+/*Link formatting down here*/
+a {
+  font-family: 'Abril Fatface';
+  font-size: 25px;
+}
+a:link    { color: #ba160c;  }
+a:visited { color: white;   }
+a:hover   { color: blue; }
+a:active  { color: green;  }
